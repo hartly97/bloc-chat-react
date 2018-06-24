@@ -1,9 +1,65 @@
-body {
+.body{
+  height: 100%;
+}
+
+
+html, body, #root, #message-container, #pannel,#user-pannel {
+  font-family: "Pacifico", cursive;
+   height: calc(100vh);
+}
+
+li {
+  list-style-type:none;
+}
+
+#user-pannel{
+	background-color: #9E9E9E;
+}
+
+.room-numbers{
+	background-color: #9E9E9E;
+}
+
+#message-container{
+	background-color: #EEEEEE;
+	width: 85%;
+}
+
+#pannel{
+  display: flex;
+  flex-direction: column;
+}
+
+.App{
+  display: flex;
+  flex-direction: row;
+}
+
+#message-container{
+  display: flex;
+}
+
+
+/* body {
   background: white;
 }
 
 header {
   margin: 0;
+}
+#sidebar {
+  float: left;
+  width: 30%;
+  background-color: #edeee3;
+  height: 100%;
+  margin: 0;
+  padding-bottom: 600px;
+  overflow-x: hidden;
+}
+
+#main {
+  width: 70%;
+  margin: 0 auto;
 }
 
 .App {
@@ -30,22 +86,7 @@ header {
   font-size: large;
 }
 
-#sidebar {
-  float: left;
-  width: 30%;
-  background-color: #edeee3;
-  height: 100%;
-  margin: 0;
-  padding-bottom: 600px;
-  overflow-x: hidden;
-}
-
-#main {
-  width: 70%;
-  margin: 0 auto;
-}
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+} */
