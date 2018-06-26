@@ -19,13 +19,11 @@ firebase.initializeApp(config);
 
 
 
+
 class App extends Component {
     render () {
         return (
             <div className='App'>
-                <header>
-                    <h1> BLOC CHAT! </h1>
-                </header>
                 <main>
                     <section id="sidebar">
                         <RoomsList firebase={firebase} />
