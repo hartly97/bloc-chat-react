@@ -39,18 +39,18 @@ class RoomList extends Component {
         return (
             <div className="room-list">
                 <section>
-                    <h1>Room List</h1>
+                    <h1>Rooms</h1>
                     {this.state.rooms.map((room, index) =>
-                        <li key={room.key}>
+                        <p key={room.key}>
                             {room.name}
-                        </li>
+                        </p>
                     )}
                 </section>
                 <div id="new-room">
                     <form onSubmit={ (e) => this.handleSubmit(e) }>
                         <p>Add New Room</p>
                         <label>
-                            Room Name:
+
                             <input type="text" value={this.state.newRoomName} onChange={ (e) => this.handleChange(e) }/>
                         </label>
                         <input type="submit" value="submit" />
@@ -76,5 +76,3 @@ export default RoomList;
 //         )
 //     }
 // }
-
-
