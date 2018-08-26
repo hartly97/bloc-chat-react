@@ -73,8 +73,8 @@ render() {
 
 
     </div>
-)
-}
+    )
+  }
 }
 
 export default RoomList;
